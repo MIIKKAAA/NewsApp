@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="categories_list">
+        <item>@string/category_default</item>
+        <item>@string/category_entertainment</item>
+        <item>@string/category_general</item>
+        <item>@string/category_health</item>
+        <item>@string/category_business</item>
+        <item>@string/category_science</item>
+        <item>@string/category_sports</item>
+        <item>@string/category_technology</item>
+    </string-array>
+
+    <!--<string-array name="categories_list">
+        <item>all</item>
+        <item>entertainment</item>
+        <item>general</item>
+        <item>health</item>
+        <item>business</item>
+        <item>science</item>
+        <item>sports</item>
+        <item>technology</item>
+    </string-array>-->
+
+    <string-array name="countries_list_values">
+        <item>@string/country_english</item>
+        <item>@string/country_german</item>
+        <item>@string/country_france</item>
+        <item>@string/country_russia</item>
+        <item>@string/country_china</item>
+    </string-array>
+
+    <string-array name="countries_list">
+        <item>us</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>ru</item>
+        <item>cn</item>
+    </string-array>
+
+</resources>

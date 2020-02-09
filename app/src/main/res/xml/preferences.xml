@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<MultiSelectListPreference
+        android:entries="@array/sources_list_for_setting"
+        android:entryValues="@array/sources_list"
+        android:key="pref_sources"
+        android:title="@string/title_sources"
+        android:summary="@string/title_sources_desc"
+        android:persistent="true"
+        android:defaultValue="@string/default_source"/>
+        -->
+
+
+    <ListPreference
+        android:entries="@array/categories_list"
+        android:entryValues="@array/categories_list"
+        android:key="pref_category"
+        android:title="@string/title_categories"
+        android:summary="@string/title_categories_desc"
+        android:persistent="true"
+        android:defaultValue="@string/category_default"/>
+
+    <ListPreference
+        android:entries="@array/countries_list_values"
+        android:entryValues="@array/countries_list"
+        android:key="pref_country"
+        android:title="@string/title_countries"
+        android:summary="@string/title_countries_desc"
+        android:persistent="true"/>
+</PreferenceScreen>

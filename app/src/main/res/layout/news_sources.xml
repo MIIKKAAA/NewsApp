@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sourceFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="10">
+
+    <ImageView
+        android:id="@+id/bbcImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginRight="@dimen/default_gap"
+        android:layout_marginTop="@dimen/default_gap"
+        android:layout_row="0"
+        app:srcCompat="@drawable/bbc" />
+
+    <TextView
+        android:id="@+id/bbcTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginTop="@dimen/default_gap"
+        android:layout_row="0"
+        android:layout_rowWeight="0"
+        android:text="@string/bbc" />
+
+    <CheckBox
+        android:id="@+id/bbcCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginTop="@dimen/default_gap"
+        android:layout_row="0"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/cnnImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginRight="@dimen/default_gap"
+        android:layout_row="1"
+        app:srcCompat="@drawable/cnn" />
+
+    <TextView
+        android:id="@+id/cnnTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="1"
+        android:layout_rowWeight="0"
+        android:text="@string/cnn" />
+
+    <CheckBox
+        android:id="@+id/cnnCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="1"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/cbsImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginRight="@dimen/default_gap"
+        android:layout_row="2"
+        app:srcCompat="@drawable/cbs" />
+
+    <TextView
+        android:id="@+id/cbsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="2"
+        android:layout_rowWeight="0"
+        android:text="@string/cbs" />
+
+    <CheckBox
+        android:id="@+id/cbsCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="2"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/nytimesImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginRight="@dimen/default_gap"
+        android:layout_row="3"
+        app:srcCompat="@drawable/nytimes" />
+
+    <TextView
+        android:id="@+id/nytimesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="3"
+        android:text="@string/nytimes" />
+
+    <CheckBox
+        android:id="@+id/nytimesCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="3"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/redditImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginRight="@dimen/default_gap"
+        android:layout_row="4"
+        app:srcCompat="@drawable/reddit" />
+
+    <TextView
+        android:id="@+id/redditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="4"
+        android:text="@string/reddit" />
+
+    <CheckBox
+        android:id="@+id/redditCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="4"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/guardianImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginRight="@dimen/default_gap"
+        android:layout_row="5"
+        app:srcCompat="@drawable/guardian" />
+
+    <TextView
+        android:id="@+id/guardianTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="5"
+        android:text="@string/guardian" />
+
+    <CheckBox
+        android:id="@+id/guardianCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="5"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/washingtonImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginRight="@dimen/default_gap"
+        android:layout_row="6"
+        app:srcCompat="@drawable/washington" />
+
+    <TextView
+        android:id="@+id/washingtonTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="6"
+        android:text="@string/washington" />
+
+    <CheckBox
+        android:id="@+id/washingtonCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="6"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/vergeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="top|center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_marginRight="@dimen/default_gap"
+        android:layout_row="7"
+        app:srcCompat="@drawable/verge" />
+
+    <TextView
+        android:id="@+id/vergeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="top|center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="7"
+        android:layout_rowWeight="0"
+        android:text="@string/verge" />
+
+    <CheckBox
+        android:id="@+id/vergeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="top|center_vertical"
+        android:layout_marginBottom="@dimen/sourceImageRightCap"
+        android:layout_marginLeft="@dimen/sourceImageRightCap"
+        android:layout_row="7"
+        android:checked="false" />
+
+    <TextView
+        android:id="@+id/allTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="8"
+        android:text="@string/all" />
+
+    <CheckBox
+        android:id="@+id/allCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="8"
+        android:checked="false" />
+
+    <TextView
+        android:id="@+id/noneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="9"
+        android:text="@string/none" />
+
+    <CheckBox
+        android:id="@+id/noneCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="9"
+        android:checked="false" />
+
+</GridLayout>
